@@ -1,0 +1,842 @@
+*{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-ms-box-sizing: border-box;    /* Firefox, other Gecko */
+	-o-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+}
+
+html, body{
+	height: 100%;
+}
+
+
+.pageLeft{
+	position: relative
+	background:#000000;
+	width: 75%;
+	height: 100%;
+	float:left;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	-moz-transition:width 0.3s;
+	transition:width 0.3s;
+}
+
+.pageFull{
+	background:#000000;
+	width: 100%;
+	height: 100%;
+	float:left;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	transition:width 0.3s;
+	-moz-transition:width 0.3s;
+}
+
+.pageNone{
+	background: #FFFFFF;
+	width: 0%;
+	height: 100%;
+	float:left;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	transition:width 0.3s;
+	-moz-transition:width 0.3s;
+	overflow: hidden;
+	display: none;
+}
+
+header{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #000000;
+	width: 75%;
+	height: 100px;
+	border-bottom: solid 1px #161616;
+	transition:width 0.3s;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	-moz-transition:width 0.3s;
+}
+
+.logo{
+	height: 100%;
+	float: left;
+}
+
+.logo img{
+	height: 100%;
+}
+
+.popUpCache{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:3000;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.popUpContainer{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.popUp{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #000000;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+
+	text-align: center;
+	color: #FFFFFF;
+	padding:50px;
+}
+
+.popUpTitle{
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.popUpImg{
+	margin-bottom: 30px;
+}
+
+.popUpTxt{
+	margin-bottom: 5px;
+}
+
+.popUpTxt2{
+	margin-bottom: 40px;
+}
+
+.popUpLink{
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 16px;
+	padding:5px 15px;
+	-webkit-transition:color, background 0.3s;
+	-o-transition:color, background 0.3s;
+	-ms-transition:color, background 0.3s;
+	transition:color, background 0.3s;
+	-moz-transition:color, background 0.3s;
+}
+
+.popUpLink:hover{
+	background:#FFFFFF;
+	color: #000000;
+	cursor: pointer;
+}
+
+.none{
+	display: none;
+}
+
+
+
+header nav{
+	margin-top: 35px;
+	float: right;
+	height: 100%;
+	color: #FFFFFF;
+}
+
+header nav ul{
+	display: inline-block;
+}
+
+header nav ul li{
+	float: left;
+	margin-right: 75px;
+	font-size: 20px;
+}
+
+.containerPhoneClick{
+}
+
+.phoneClick{
+	position: relative;
+	top:-22px;
+	width:70px;
+	padding:15px;
+	-webkit-transition:top 0.3s;
+	-o-transition:top 0.3s;
+	-ms-transition:top 0.3s;
+	transition:top 0.3s;
+	-moz-transition:top 0.3s;
+}
+
+.phoneClick:hover{
+	cursor: pointer;
+	top:-26px;
+}
+
+.otherReplay{
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 16px;
+	padding:5px 15px;
+	-webkit-transition:color, background 0.3s;
+	-o-transition:color, background 0.3s;
+	-ms-transition:color, background 0.3s;
+	transition:color, background 0.3s;
+	-moz-transition:color, background 0.3s;
+}
+
+.otherReplay:hover{
+	background:#FFFFFF;
+	color: #000000;
+}
+
+.containerPlayer{
+	background: #222222;
+	height: 100%;
+}
+
+.containerControl{
+	background: #262626;
+	height: 100px;
+	width:75%;
+
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+
+.full{
+	width: 100%;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	transition:width 0.3s;
+	-moz-transition:width 0.3s;
+}
+
+
+.progressBarContainer{
+	height:8%;
+	width: 100%;
+	background: #161616;
+}
+
+.progressBarContainer:hover{
+	cursor: pointer;
+}
+
+.progressBar{
+	height: 100%;
+	background: #FFFFFF;
+}
+
+.controlBar{
+	height: 92%;
+	width: 100%;
+}
+
+.pauseButton{
+	width:10%;
+	height: 100%;
+	position: relative;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	float: left;
+}
+
+.pauseButton:hover{
+	cursor: pointer;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	background: #161616;
+}
+
+
+.playButton{
+	width:10%;
+	height: 100%;
+	position: relative;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	float: left;
+	background-image: url("../img/play.png");
+	background-size: auto 80%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.playButton img{
+	position: absolute;
+	top:10%;
+	height: 80%;
+}
+
+.playButton:hover{
+	cursor: pointer;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	background-color: #161616;
+}
+
+.barBlanche1{
+	height:40%;
+	width:8%;
+	position: absolute;
+	top: 30%;
+	left: 39%;
+	background: #FFFFFF;
+}
+
+.barBlanche2{
+	height:40%;
+	width:8%;
+	position: absolute;
+	top: 30%;
+	right: 39%;
+	background: #FFFFFF;
+}
+
+.cadreInfosContainer{
+	float: left;
+	width: 70%;
+	height: 100%;
+	position: relative;
+}
+
+.cadreInfos{
+	background: #000000;
+	width: 94%;
+	height: 70%;
+	position: absolute;
+	color: #FFFFFF;
+	top: 15%;
+	left: 3%;
+}
+
+.cadreInfoName{
+	padding-top: 10px;
+	color: #999999;
+	font-weight: bold;
+	text-align: center;
+}
+.cadreInfoQuote{
+	padding-top: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.volumeButton{
+	width:10%;
+	height: 100%;
+	position: relative;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	float: left;
+}
+
+.barVol1{
+	height:30%;
+	width:4%;
+	position: absolute;
+	top: 35%;
+	left: 34%;
+	background: #FFFFFF;
+}
+
+.barVol2{
+	height:30%;
+	width:4%;
+	position: absolute;
+	top: 35%;
+	left: 41%;
+	background: #FFFFFF;
+}
+
+.barVol3{
+	height:30%;
+	width:4%;
+	position: absolute;
+	top: 35%;
+	left: 48%;
+	background: #FFFFFF;
+}
+
+.barVol4{
+	height:30%;
+	width:4%;
+	position: absolute;
+	top: 35%;
+	left: 55%;
+	background: #FFFFFF;
+}
+
+.barVol5{
+	height:30%;
+	width:4%;
+	position: absolute;
+	top: 35%;
+	left: 62%;
+	background: #FFFFFF;
+}
+
+.barvol{
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+}
+
+.barvol:hover{
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	background: #AAAAAA;
+	cursor: pointer;
+	top:30%;
+	height:40%;
+}
+
+.flecheButton{
+	width: 10%;
+	height: 100%;
+	position: relative;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	float: left;
+}
+
+.flecheButton img{
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top:20%;
+	left:40%;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+}
+
+.flecheButton img:hover{
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	left:60%;
+	cursor: pointer;
+}
+
+.flecheButton_back{
+	width: 10%;
+	height: 100%;
+	position: relative;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	float: left;
+}
+
+.flecheButton_back img{
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top:20%;
+	left:40%;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+}
+
+.flecheButton_back img:hover{
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	left:20%;
+	cursor: pointer;
+}
+
+.pageRight{
+	background: #FFFFFF;
+	width: 25%;
+	height: 100%;
+	float:left;
+	-webkit-transition:width 0.3s;
+	-o-transition:width 0.3s;
+	-ms-transition:width 0.3s;
+	transition:width 0.3s;
+	-moz-transition:width 0.3s;
+	position: relative;
+	overflow: hidden;
+}
+
+.rightZone1{
+	width: 100%;
+	height:110px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.asidePolImg{
+	width:80px;
+	height:80px;
+	margin:10px;
+	float: left;
+}
+
+.asidePolName{
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+.asidePolFamille{
+	border: 1px solid #cccccc;
+	background:#eaeaea;
+	width:50px;
+	font-size: 12px;
+	margin-left: 100px;
+	text-align: center;
+	padding:3px;
+	font-weight: bold;
+	margin-top: 4px;
+	border-radius: 5px;
+}
+
+.asidePolTexte{
+	margin-top: 5px;
+	font-weight: normal;
+	font-size: 15px;
+	padding-right: 10px;
+}
+
+.rightZone2{
+	width: 100%;
+	height:60px;
+	background: #CCCCCC;
+	position: absolute;
+	top: 110px;
+	left: 0px;
+}
+
+.asideMenu{
+	font-size: 18px;
+}
+
+.asideSelected{
+	background:#FFFFFF;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #3D3D3D;
+}
+
+.asideUnselected{
+	background:#EAEAEA;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+}
+
+.asideUnselected:hover{
+	cursor: pointer;
+	background:#DDDDDD;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+}
+
+.asideRank{
+	width:50%;
+	height:52px;
+	line-height:52px;
+	float:left;
+	text-align: center;: 
+}
+
+.asideInfos{
+	width:50%;
+	height:52px;
+	line-height:52px;
+	float:left;
+	text-align: center;
+}
+
+.asideUnderMenu{
+	background:#FFFFFF;
+	height: 8px;
+	width:100%;
+	float: left;
+	border-bottom: 1px solid #919191;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+
+.rightZone3{
+	background: #eaeaea;
+	height:100%;
+	border-top: 170px white solid;
+	overflow-y: scroll;
+}
+
+.infoQuote{
+	position: relative;
+	left: -1000px;
+	border-radius: 6px;
+	height:170px;
+	margin:10px;
+	background: #FFFFFF;
+	-moz-box-shadow: 0px 1px 5px 0px #656565;
+	-webkit-box-shadow: 0px 1px 5px 0px #656565;
+	-o-box-shadow: 0px 1px 5px 0px #656565;
+	box-shadow: 0px 1px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+	-webkit-transition:left 0.3s;
+	-o-transition:left 0.3s;
+	-ms-transition:left 0.3s;
+	transition:left 0.3s;
+	-moz-transition:left 0.3s;
+}
+
+.infoQuoteTxt{
+	border-radius: 6px;
+	height:100px;
+	text-align: center;
+}
+
+.quoteMore{
+	height:70px;
+	background-color: #CCCCCC;
+	border-radius: 6px;
+}
+
+.infoQuoteTxt p{
+	padding-top: 30px;
+	border-radius: 6px;
+	height:100px;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.infoQuoteTxt p span{
+	font-weight: normal;
+}
+
+.quoteMoreName{
+	margin-top: 8px;
+	padding:17px;
+	float:left;
+	width:80%;
+	height:62px;
+	text-align: center;
+}
+
+.quoteMoreImg{
+	float:left;
+	width:15%;
+	height:60px;
+	margin-top: 5px;
+	margin-left: 5%;
+	border-radius: 30px;
+}
+
+.namePerso{
+	font-weight: bold;
+}
+
+.infoLieu{
+	position: relative;
+	left: -1000px;
+	border-radius: 6px;
+	height:170px;
+	margin:10px;
+	background: #FFFFFF;
+	-moz-box-shadow: 0px 1px 5px 0px #656565;
+	-webkit-box-shadow: 0px 1px 5px 0px #656565;
+	-o-box-shadow: 0px 1px 5px 0px #656565;
+	box-shadow: 0px 1px 5px 0px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=5);
+	-webkit-transition:left 0.3s;
+	-o-transition:left 0.3s;
+	-ms-transition:left 0.3s;
+	transition:left 0.3s;
+	-moz-transition:left 0.3s;
+}
+
+
+
+.visibleInfo{
+	position: relative;
+	left: 0px;
+	-webkit-transition:left 0.3s;
+	-o-transition:left 0.3s;
+	-ms-transition:left 0.3s;
+	transition:left 0.3s;
+	-moz-transition:left 0.3s;
+}
+
+.infoLieuMap{
+	border-radius: 6px;
+	height:100px;
+}
+
+.lieuMoreName{
+	padding:17px;
+	float:left;
+	width:50%;
+	height:70px;
+	text-align: center;
+	border-right:#CCCCCC solid 1px;
+}
+
+.lieuMoreImg{
+	float:left;
+	width:50%;
+	height:70px;
+	border:#FFFFFF 6px solid;
+	border-radius: 6px;
+}
+
+.nameVille{
+	font-weight: bold;
+}
+
+.rightZone4{
+	background: #eaeaea;
+	height:100%;
+	border-top: 170px white solid;
+	overflow-y: scroll;
+}
+
+.containerRank{
+	height: 100px;
+	border-bottom:#BBBBBB solid 1px;
+	overflow: hidden;
+}
+
+.unpair{
+	background: #FFFFFF;
+}
+
+.rankRank{
+	height:100px;
+	float: left;
+	line-height: 100px;
+	font-size: 28px;
+	margin-left: 10px;
+	font-weight: normal;
+	width:20px;
+	text-align: center;
+}
+
+.rankPolImg{
+	width:80px;
+	height:80px;
+	margin:10px;
+	float: left;
+}
+
+.rankRight{
+	float: left;
+	width:50%;
+}
+
+.rankPolName{
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+.rankPolFamille{
+	border: 1px solid #cccccc;
+	background:#eaeaea;
+	width:50px;
+	font-size: 12px;
+	text-align: center;
+	padding:3px;
+	font-weight: bold;
+	margin-top: 4px;
+	border-radius: 5px;
+}
+
+.rankJaugeContainer{
+	background: #CCCCCC;
+	height:4px;
+	display: inline-block;
+	width:100%;
+}
+
+.rankJauge{
+	background: #1b9835;
+	height:4px;
+	width:50%;
+}
+
+.rankPercentage{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.rankPercent{
+	font-weight: normal;
+	font-size: 28px;
+	color: #1b9835;
+}
+
+.unvisible{
+	display: none;
+}

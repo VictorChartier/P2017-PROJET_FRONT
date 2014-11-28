@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Des Paroles et des Actes</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/styles/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="popUp" class="popUpCache none">
+        <div class="popUpContainer">
+            <div class="popUp">
+                <p class="popUpTitle">Connectez-vous avec votre Smartphone</p>
+                <img class="popUpImg" src="src/img/icon_white.png" />
+                <p class="popUpTxt">Rendez-vous sur <span style="font-weight:bold;">bit.ly/LeDecodeur</span></p>
+                <p class="popUpTxt2">et entrez le code <span id="spanSession" style="font-weight:bold;">-</span></p>
+                <p><span class="popUpLink" id="popUpLink" href="">Fermer cette fenêtre</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="pageLeft" class="pageLeft">
+        <header class="" id="header">
+            <div class="logo">
+                <a href="index.html"><img src="src/img/logo_mini.png" alt="des paroles et des actes"/></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="replay.html" class="otherReplay">Voir les autres replay</a></li>
+                    <li class="containerPhoneClick"><img class="phoneClick" id="phoneClick" src="src/img/icon_white.png" /></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="containerPlayer" id="containerPlayer">
+            <video height="100%" width="100%" id="video">
+              <source src="src/replay/DPDA_001.mp4" type="video/mp4">
+              <source src="src/replay/DPDA_001.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="containerControl" id="containerControl">
+            <div class="progressBarContainer" id="progressBar">
+                <div class="progressBar"></div>
+            </div>
+            <div class="controlBar">
+                <div class="playButton" id="button">
+                </div>
+                <div class="pauseButton unvisible" id="pausebutton">
+                    <div class="barBlanche1"></div>
+                    <div class="barBlanche2"></div>
+                </div>
+                <div class="cadreInfosContainer">
+                    <div class="cadreInfos" id="cadreInfos">
+                        <p class="cadreInfoName" id="cadreInfoName">Grâce à votre smartphone, vous pouvez donner votre opinion.</p>
+                        <p class="cadreInfoQuote">"<span id="cadreInfoQuote">00:00</span>"</p>
+                    </div>
+                </div>
+                <div class="volumeButton">
+                    <div class="barVol1 barvol"></div>
+                    <div class="barVol2 barvol"></div>
+                    <div class="barVol3 barvol"></div>
+                    <div class="barVol4 barvol"></div>
+                    <div class="barVol5 barvol"></div>
+                </div>
+                <div id="fleche_player" class="flecheButton">
+                    <img src="src/img/fleche.png"/>
+                </div>
+                <div id="fleche_player_back" class="flecheButton_back unvisible">
+                    <img src="src/img/fleche_back.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pageRight" class="pageRight">
+        <div class="rightZone1">
+            <div class="asidePolImg" id="asidePolImg" style="background:url(''); background-size: cover;"></div>
+            <p class="asidePolName" id="asidePolName">Des Paroles et des Actes</p>
+            <p class="asidePolFamille" id="asidePolFamille">-</p>
+            <p class="asidePolTexte" id="asidePolTexte">Cliquez sur le bouton "&#9658;" pour commencer la lecture.</p>
+        </div>
+        <div class="rightZone2">
+            <div class="asideMenu">
+                <div class="asideInfos asideSelected" id="buttonInfos">
+                    Informations
+                </div>
+                <div class="asideRank asideUnselected" id="buttonRank">
+                    Classement
+                </div>
+                <div class="asideUnderMenu"></div>
+            </div>
+        </div>
+        <div class="rightZone3" id="rightZone3">
+            
+        </div>
+
+        <div class="rightZone4 unvisible" id="rightZone4">
+            <div class="containerRank unpair">
+                <div class="rankRank">1</div>
+                <div class="rankPolImg" id="rankPolImg" style="background:url('src/img/mini_pol/nkm.jpg'); background-size: cover;"></div>
+                <div class="rankRight">
+                    <p class="rankPolName">Nathalie Kosciusko-Morizet</p>
+                    <p class="rankPolFamille">UMP</p>
+                    <div class="rankJaugeContainer">
+                        <div class="rankJauge">
+                            
+                        </div>
+                    </div>
+                    <p class="rankPercentage"><span class="rankPercent">75%</span> de vérités</p>
+                </div>
+            </div>
+            <div class="containerRank">
+                <div class="rankRank">2</div>
+                 <div class="rankPolImg" id="rankPolImg" style="background:url('src/img/mini_pol/nkm.jpg'); background-size: cover;"></div>
+                <div class="rankRight">
+                    <p class="rankPolName">Nathalie Kosciusko-Morizet</p>
+                    <p class="rankPolFamille">UMP</p>
+                    <div class="rankJaugeContainer">
+                        <div class="rankJauge">
+                            
+                        </div>
+                    </div>
+                    <p class="rankPercentage"><span class="rankPercent">75%</span> de vérités</p>
+                </div>
+            </div>
+            <div class="containerRank unpair">
+                <div class="rankRank">3</div>
+                 <div class="rankPolImg" id="rankPolImg" style="background:url('src/img/mini_pol/nkm.jpg'); background-size: cover;"></div>
+                <div class="rankRight">
+                    <p class="rankPolName">Nathalie Kosciusko-Morizet</p>
+                    <p class="rankPolFamille">UMP</p>
+                    <div class="rankJaugeContainer">
+                        <div class="rankJauge">
+                            
+                        </div>
+                    </div>
+                    <p class="rankPercentage"><span class="rankPercent">75%</span> de vérités</p>
+                </div>
+            </div>
+            <div class="containerRank">
+                <div class="rankRank">4</div>
+                 <div class="rankPolImg" id="rankPolImg" style="background:url('src/img/mini_pol/nkm.jpg'); background-size: cover;"></div>
+                <div class="rankRight">
+                    <p class="rankPolName">Nathalie Kosciusko-Morizet</p>
+                    <p class="rankPolFamille">UMP</p>
+                    <div class="rankJaugeContainer">
+                        <div class="rankJauge">
+                            
+                        </div>
+                    </div>
+                    <p class="rankPercentage"><span class="rankPercent">75%</span> de vérités</p>
+                </div>
+            </div>
+            <div class="containerRank unpair">
+                <div class="rankRank">5</div>
+                 <div class="rankPolImg" id="rankPolImg" style="background:url('src/img/mini_pol/nkm.jpg'); background-size: cover;"></div>
+                <div class="rankRight">
+                    <p class="rankPolName">Nathalie Kosciusko-Morizet</p>
+                    <p class="rankPolFamille">UMP</p>
+                    <div class="rankJaugeContainer">
+                        <div class="rankJauge">
+                            
+                        </div>
+                    </div>
+                    <p class="rankPercentage"><span class="rankPercent">75%</span> de vérités</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/jquery.js"></script>
+    <script src="src/js/desktop.js"></script>
+</body>
+</html>

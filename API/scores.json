@@ -1,0 +1,42 @@
+{  
+  "1": [ 
+      {  
+          "emissions": 3,
+          "affirmations": 42,
+          "true": 31,
+          "name": "Marine Le Pen"
+      }
+   ],
+ "2": [ 
+      {  
+          "emissions": 1,
+          "affirmations": 5,
+          "true": 4,
+          "name": "Nathalie Kosciusko-Morizet"
+      }
+ ],
+ "3": [ 
+      {  
+          "emissions": 4,
+          "affirmations": 65,
+          "true": 60,
+          "name": "François Bayrou"
+      }
+ ],
+ "4": [ 
+      {  
+          "emissions": 2,
+          "affirmations": 14,
+          "true": 12,
+          "name": "Pierre Laurent"
+      }
+ ],
+ "5": [ 
+      {  
+          "emissions": 3,
+          "affirmations": 37,
+          "true": 34,
+          "name": "Jean-Christophe Cambadélis"
+      }
+ ]
+} 

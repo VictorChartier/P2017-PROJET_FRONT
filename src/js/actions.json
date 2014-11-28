@@ -1,0 +1,312 @@
+{ 
+  "replay": "001", 
+  "actions": [ 
+      { 
+          "timer": 1, 
+          "action": "start",
+          "value": 1,
+          "param1": "François Hollande : et maintenant ?",
+          "param2": ""
+      },
+      { 
+          "timer": 2, 
+          "action": "talk",
+          "value": 1,
+          "param1": "David Pujadas"
+      },
+      { 
+          "timer": 932, 
+          "action": "quote",
+          "value": 1,
+          "param1": "La construction est en difficulté depuis la loi Duflot.",
+          "param2": "Nathalie Kosciusko-Morizet",
+          "param3": "true",
+          "param4": 1
+      },
+      { 
+          "timer": 1052, 
+          "action": "quote",
+          "value": 2,
+          "param1": "Les français ne veulent plus des accords de Schengen",
+          "param2": "Marine Le Pen",
+          "param3": "false"
+      },
+      { 
+          "timer": 1080, 
+          "action": "quote",
+          "value": 3,
+          "param1": "350 000 travailleurs étrangers à bas coût en France",
+          "param2": "Marine Le Pen",
+          "param3": "true"
+      },
+      { 
+          "timer": 4324, 
+          "action": "lieu",
+          "value": 1,
+          "param1": "Base aérienne 104",
+          "param2": "Al Dhafra"
+      }, 
+      { 
+          "timer": 4407, 
+          "action": "quote",
+          "value": 5,
+          "param1": "vous (le gouvernement) êtes responsable de la baisse du budget de l’armée",
+          "param2": "Marine Le Pen",
+          "param3": "true"
+      },
+      { 
+          "timer": 4438, 
+          "action": "quote",
+          "value": 6,
+          "param1": "Les armes de l’état islamiste sont celles distribuées par la coalition internationale",
+          "param2": "Marine Le Pen",
+          "param3": "true"
+      },
+      { 
+          "timer": 4465, 
+          "action": "lieu",
+          "value": 1,
+          "param1": "Benghazi",
+          "param2": "Libye"
+      },
+      { 
+          "timer": 4664, 
+          "action": "quote",
+          "value": 7,
+          "param1": " Augmentation des ventes d’armes française (43%)",
+          "param2": "Pierre Laurent",
+          "param3": "true"
+      },
+      { 
+          "timer": 5070, 
+          "action": "quote",
+          "value": 8,
+          "param1": "Un millier de français combattent pour l’Etat Islamique.",
+          "param2": "Nathalie Kosciusko-Morizet",
+          "param3": "true"
+      },
+      { 
+        "timer": 110, 
+        "action": "talk",
+        "value": 1,
+        "param1": "David Pujadas"
+      },
+
+      { 
+        "timer": 132, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      },
+
+      { 
+        "timer": 206, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      { 
+        "timer": 327, 
+        "action": "talk",
+        "value": 1,
+        "param1": "François Bayrou"
+      },
+
+      { 
+        "timer": 447, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      { 
+        "timer": 618, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Jean-Christophe Cambadélis"
+      },
+
+      { 
+        "timer": 755, 
+        "action": "talk",
+        "value": 1,
+        "param1": "David Pujadas"
+      },
+
+      {
+        "timer": 809, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      },
+
+      { 
+        "timer": 964, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      { 
+        "timer": 1264, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      { 
+        "timer": 1491, 
+        "action": "talk",
+        "value": 1,
+        "param1": "François Bayrou"
+      },
+
+      {
+        "timer": 1958, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Jean-Christophe Cambadélis"
+      },
+
+      {
+        "timer": 2173, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      {
+        "timer": 2259, 
+        "action": "talk",
+        "value": 1,
+        "param1": "François Bayrou"
+      },
+
+      {
+        "timer": 2300, 
+        "action": "talk",
+        "value": 1,
+        "param1": "David Pujadas"
+      },
+
+      {
+        "timer": 2588, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      {
+        "timer": 2884, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      },
+
+      {
+        "timer": 2992, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      {
+        "timer": 3439, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      {
+        "timer": 3538, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      {
+        "timer": 3675, 
+        "action": "talk",
+        "value": 1,
+        "param1": "François Bayrou"
+      },
+
+      {
+        "timer": 3709, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      {
+        "timer": 3774, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Jean-Christophe Cambadélis"
+      },
+
+      {
+        "timer": 4033, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      },
+
+      {
+        "timer": 4083, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      {
+        "timer": 4162, 
+        "action": "talk",
+        "value": 1,
+        "param1": "David Pujadas"
+      },
+
+      {
+        "timer": 4318, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      },
+
+      {
+        "timer": 4343, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Marine Le Pen"
+      },
+
+      {
+        "timer": 4458, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Jean-Christophe Cambadélis"
+      },
+
+      {
+        "timer": 4593, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Pierre Laurent"
+      },
+
+      {
+        "timer": 4788, 
+        "action": "talk",
+        "value": 1,
+        "param1": "François Bayrou"
+      },
+
+      {
+        "timer": 5036, 
+        "action": "talk",
+        "value": 1,
+        "param1": "Nathalie Kosciusko-Morizet"
+      }
+   ] 
+} 
